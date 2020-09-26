@@ -21,6 +21,7 @@ void push(struct stack *s,int newitem)
     }
     count++;
 }
+/*To remove(pOp) elements from the stack*/
 void pop(struct stack *s)
 {
     if(s->top==-1)
@@ -35,6 +36,7 @@ void pop(struct stack *s)
     printf("\n");
     count--;
 }
+/*to print the stack*/
 void printStack(struct stack *s)
 {
     for(int i=0;i<count;i++)
